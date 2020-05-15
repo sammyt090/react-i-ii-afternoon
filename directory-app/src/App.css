@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+*{
+  box-sizing: border-box;
+}
+
+
+.App-header {
+  background-color: rgb(45, 176, 252);
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  justify-content: center;
+  font-size: calc(2vmin);
+  color: black;
+}
+
+.main-body{
+  background-color: rgb(48, 47, 47);
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-stage{
+  width: 85%;
+  height: 70%;
+ 
+  display: flex;
+}
+.center-box{
+  display: flex;
+  width: 100%;
+  height: 85%;
+  background-color: white;
+  padding-left: 60px;
+  margin: 0px;
+}
+.txt-under{
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 10%;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  
+  
+}
+
+button{
+  background-color: rgb(48, 47, 47);
+  color: white;
+  border: none;
+  text-decoration: none;
+  bottom: 80px;
+
+}
+.first{
+  border-right: 10px;
+  display: flex;
+  position: absolute;
+}
+.second{
+  display: flex;
+  position: absolute;
+  right: 100px;
+  
+}
+
+h1{
+  border-top: 0px;
+  
+  border-bottom: solid rgb(45, 176, 252) ;
+  
+}
+
+p{
+  margin: 0;
+}
+
+h2{
+  display: flex;
+  color: black;
+  position: absolute; 
+  top: 20%; 
+  right: 10%; 
+  width: 100px; 
+  text-align:right;
+  font-size: 30px;
+  
+  justify-content: flex-end;
+}
